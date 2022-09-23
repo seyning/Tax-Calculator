@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Manager</title>
+    <link rel="stylesheet" href="css/bill.css">
+  </head>
+  <body>
+    <div class="logo">
+      <img
+        src="https://natujenge.ke/assets/images/logo-wordmark.svg"
+        alt="natujenge"
+      />
+    </div>
+    <hr>
+    <div class="container">
+      <div id="headings">
+        <h2>Tax Calculator | Bill Manager</h2>
+        <hr class="headings">
+      </div>
+      <div class="form-salary">
+        <h4>Net Salary</h4>
+        <form action="post" id="net-salary">
+          <input type="number" name="name" id="shillings" placeholder="KSH">
+        </form>
+      </div>
+      <div>
+        <form action="" class="form-bills">
+          <label for="rent"> Rent</label>
+          <input type="number" name="name" id="rent" required placeholder="KSH"> <br>
+          <label for="entertainment"> Entertainment</label>
+          <input type="number" name="name" id="entertainment" required placeholder="KSH"> <br>
+          <label for="food"> Food</label>
+          <input type="number" name="name" id="food" required placeholder="KSH"> <br>
+          <label for="shopping">Shopping</label>
+          <input type="number" name="name" id="shopping" required placeholder="KSH"><br>
+          <input type="text" name="name" id="newbills" placeholder="add new bills here" > </input>
+          <input type="number" name="name" id="otherbills"  placeholder="KSH" required><br>
+          <button type="submit" class="btn-primary" id="add">Add</button> <br>
+          <label for="balance"> Balance</label>
+          <input type="number" name="name" id="balance" required placeholder="KSH"> <br>
+        </form>
+      </div>
+      <hr>
+      <footer>
+        Powered by Natujenge
+      </footer>
+    </div>
+  </body>
+</html>

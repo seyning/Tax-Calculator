@@ -1,0 +1,104 @@
+*{
+  border: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+  /* color: red; */
+  /* width: 100%; */
+  height: 2px;
+  /* background-color: #d9d9d9; */
+  border: 1px solid #d9d9d9;
+}
+.headings{
+  width: 50%;
+}
+.container{
+  text-align: center;
+}
+h2{
+  font-size: 25px;
+}
+#headings{
+  text-align: center;
+}
+h4{
+  /* position: absolute; */
+  /* font-size: 32px; */
+  /* width: 264px; */
+  height: 1px;
+  /* left: 304px; */
+  /* top: 357px; */
+}
+.form-salary{
+  /* background-color: #f5f5f5; */
+  /* margin: 5px 5px; */
+  /* padding: 30px 300px; */
+  /* font-size: 25px; */
+  /* box-sizing: border-box; */
+  /* text-align: center; */
+  /* height: 50%; */
+}
+/* div.form-bills{
+  width: 100px;
+  margin: auto 00px;
+  border: 300px solid #73ad21;
+} */
+.form-bills{
+  background-color: #f5f5f5;
+  margin: 5px 5px;
+  padding: 30px 300px;
+  font-size: 25px;
+  box-sizing: border-box;
+  text-align: end;
+  /* height: 500px; */
+  /* max-width: 50%; */
+}
+label{
+  float: left;
+  text-align: left;
+  margin-right: 75px;
+  width: 150px;
+}
+
+#shillings{
+  margin: 10px auto;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#rent, #entertainment, #food, #shopping{
+  /* background-color: grey; */
+  margin: 5px 5px;
+  border-block-end: 2px double grey;
+  /* color: rgb(42, 96, 143); */
+  /* border-block: 5px hidden grey; */
+  writing-mode: horizontal-tb;
+  /* border-block-width: thin; */
+  border-block-style:aliceblue;
+  /* border: 2px hidden gray; */
+  /* box-shadow: inset; */
+}
+#otherbills{
+  /* margin-right: 25px; */
+  margin: 25px 44px;
+  border-block-end: 2px double grey;
+  border-block-style:aliceblue;
+  background: #ffff;
+}
+button {
+  margin: 3px 250px;
+  color: rgb(247, 243, 243);
+  background-color: rgb(0, 0, 0);
+  /* border: none; */
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.2s;
+}
+button:hover{
+  color: red;
+  background-color: yellow;
+}
