@@ -1,0 +1,68 @@
+
+
+#natujenge-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#natujenge-image{
+    display: flex;
+}
+
+#natujenge-image img{
+    height: 50px;
+    width: 40px;
+}
+
+#content-netpay{
+    margin-bottom: 10px;
+}
+#gross-salary{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#Netpay{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    align-items: center;
+}
+
+#Netpay input{
+    border: 1px solid green;
+    outline: none;
+    margin-top: -10px;
+    float: right;
+    border-radius: 5px;
+}
+
+#links ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-content{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+#tax-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#bill-manager-link{
+    float: right;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+}
